@@ -1,6 +1,5 @@
-import random
-import string
+import nanoid
 
 
 def gen_unique_id():
-    return "".join(random.choice(string.digits + string.ascii_letters) for _ in range(12))
+    return nanoid.generate()
