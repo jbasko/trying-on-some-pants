@@ -1,5 +1,5 @@
 pex_binary(
-    name="__main__",
+    name="bin",
     entry_point="__main__.py",
 )
 
