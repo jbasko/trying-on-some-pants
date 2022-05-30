@@ -18,9 +18,18 @@
   "allow_wheels": true,
   "build_isolation": true,
   "constraints": [],
-  "locked_resolves": [],
+  "locked_resolves": [
+    {
+      "locked_requirements": [],
+      "platform_tag": [
+        "cp37",
+        "cp37m",
+        "macosx_10_16_x86_64"
+      ]
+    }
+  ],
   "path_mappings": {},
-  "pex_version": "2.1.84",
+  "pex_version": "2.1.87",
   "prefer_older_binary": false,
   "requirements": [],
   "requires_python": [
